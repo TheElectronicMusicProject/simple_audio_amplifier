@@ -2303,8 +2303,8 @@
 		(uuid f8303274-2b1b-4a75-a900-06e0d2f5c135)
 	)
 	(rectangle
-		(start 132.08 97.155)
-		(end 145.415 107.315)
+		(start 128.27 97.155)
+		(end 141.605 107.315)
 		(stroke
 			(width 0)
 			(type dot)
@@ -2378,7 +2378,7 @@
 	)
 	(text "To avoid instabilities.\nPlace capacitor or short circuit."
 		(exclude_from_sim no)
-		(at 131.445 99.695 0)
+		(at 127.635 99.695 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2452,6 +2452,12 @@
 		(uuid "532a7150-318a-405d-9129-265358e38a40")
 	)
 	(junction
+		(at 130.81 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56f4f5fa-11df-4e20-89fd-e7a22bc526c6")
+	)
+	(junction
 		(at 236.22 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2480,12 +2486,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f0d404d-3edf-4b0a-98a5-00065358736c")
-	)
-	(junction
-		(at 134.62 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91f41b04-b65e-413f-928a-63b75a43adf0")
 	)
 	(junction
 		(at 205.74 68.58)
@@ -2647,16 +2647,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 109.22) (xy 148.59 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d0470ad-ba80-4fb4-b18b-65a23ff778c1")
-	)
-	(wire
-		(pts
 			(xy 78.74 77.47) (xy 78.74 86.36)
 		)
 		(stroke
@@ -2737,7 +2727,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 109.22) (xy 134.62 109.22)
+			(xy 78.74 109.22) (xy 130.81 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2767,7 +2757,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 95.25) (xy 134.62 97.79)
+			(xy 130.81 95.25) (xy 130.81 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2794,6 +2784,16 @@
 			(type default)
 		)
 		(uuid "38fcccef-bcc7-4f90-ad10-760c264ff6fc")
+	)
+	(wire
+		(pts
+			(xy 130.81 109.22) (xy 148.59 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd950cf-04fe-4458-95e6-1cfb55be293d")
 	)
 	(wire
 		(pts
@@ -3227,7 +3227,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 105.41) (xy 134.62 109.22)
+			(xy 130.81 105.41) (xy 130.81 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3437,7 +3437,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 95.25) (xy 143.51 95.25)
+			(xy 130.81 95.25) (xy 143.51 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3472,7 +3472,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm"
 			(at 156.5148 72.39 0)
 			(effects
 				(font
@@ -3542,7 +3542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 61.722 144.78 90)
 			(effects
 				(font
@@ -3610,7 +3610,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 43.18 168.148 90)
 			(effects
 				(font
@@ -3833,7 +3833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
 			(at 135.89 74.6252 0)
 			(effects
 				(font
@@ -4614,7 +4614,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
 			(at 155.2448 105.41 0)
 			(effects
 				(font
@@ -4689,7 +4689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
 			(at 226.06 80.3148 0)
 			(effects
 				(font
@@ -4954,7 +4954,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
 			(at 226.06 67.6148 0)
 			(effects
 				(font
@@ -5157,7 +5157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm"
 			(at 200.3552 104.14 0)
 			(effects
 				(font
@@ -5358,7 +5358,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm"
 			(at 186.9948 105.41 0)
 			(effects
 				(font
@@ -5494,7 +5494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 49.022 173.99 90)
 			(effects
 				(font
@@ -5644,7 +5644,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 177.8 128.778 90)
 			(effects
 				(font
@@ -6005,7 +6005,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm"
 			(at 105.41 89.2048 0)
 			(effects
 				(font
@@ -6122,7 +6122,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 134.62 101.6 0)
+		(at 130.81 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6131,7 +6131,7 @@
 		(fields_autoplaced yes)
 		(uuid "d398fc2f-00f4-4466-a9bb-aa75c5e586d4")
 		(property "Reference" "C9"
-			(at 138.43 100.3299 0)
+			(at 134.62 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6140,7 +6140,7 @@
 			)
 		)
 		(property "Value" "0.1 uF"
-			(at 138.43 102.8699 0)
+			(at 134.62 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6148,8 +6148,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 135.5852 105.41 0)
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm"
+			(at 131.7752 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6158,7 +6158,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 101.6 0)
+			(at 130.81 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6167,7 +6167,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 134.62 101.6 0)
+			(at 130.81 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6282,7 +6282,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 90.17 91.948 90)
 			(effects
 				(font
@@ -6349,7 +6349,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
 			(at 226.06 56.1848 0)
 			(effects
 				(font
@@ -6419,7 +6419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 197.612 110.49 90)
 			(effects
 				(font
