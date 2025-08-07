@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PJ-322")(type "KiCad")(uri "${KIPRJMOD}/lib/PJ-322/PJ-322.pretty")(options "")(descr ""))
+  (lib (name "WH148-1A-2")(type "KiCad")(uri "${KIPRJMOD}/lib/WH148-1A-2/WH148-1A-2.pretty")(options "")(descr ""))
+  (lib (name "2N2222A")(type "KiCad")(uri "${KIPRJMOD}/lib/2N2222A")(options "")(descr ""))
+)

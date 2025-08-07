@@ -68,17 +68,6 @@
 		)
 		(symbol "PJ-322_0_1"
 			(rectangle
-				(start -10.16 -1.27)
-				(end 1.27 -11.43)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
 				(start -10.16 -3.81)
 				(end -7.62 -8.89)
 				(stroke
@@ -151,6 +140,17 @@
 			)
 		)
 		(symbol "PJ-322_1_1"
+			(rectangle
+				(start -10.16 -1.27)
+				(end 1.27 -11.43)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(text private "MIC"
 				(at 8.89 -2.54 0)
 				(effects
