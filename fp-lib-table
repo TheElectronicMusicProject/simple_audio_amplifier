@@ -3,4 +3,7 @@
   (lib (name "PJ-322")(type "KiCad")(uri "${KIPRJMOD}/lib/PJ-322/PJ-322.pretty")(options "")(descr ""))
   (lib (name "WH148-1A-2")(type "KiCad")(uri "${KIPRJMOD}/lib/WH148-1A-2/WH148-1A-2.pretty")(options "")(descr ""))
   (lib (name "2N2222A")(type "KiCad")(uri "${KIPRJMOD}/lib/2N2222A")(options "")(descr ""))
+  (lib (name "NZX13B,133")(type "KiCad")(uri "${KIPRJMOD}/lib/NZX13B,133")(options "")(descr ""))
+  (lib (name "500SSP3S1M6QEA")(type "KiCad")(uri "${KIPRJMOD}/lib/500SSP3S1M6QEA")(options "")(descr ""))
+  (lib (name "TB006 -508-02BE")(type "KiCad")(uri "${KIPRJMOD}/lib/TB006 -508-02BE")(options "")(descr ""))
 )
