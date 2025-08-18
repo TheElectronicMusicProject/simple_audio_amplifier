@@ -7,7 +7,7 @@
 	(title_block
 		(title "Simple Audio Amplifier")
 		(date "2025-07-16")
-		(rev "00")
+		(rev "1.0")
 		(company "Circuitry Passion")
 	)
 	(lib_symbols
@@ -4411,6 +4411,15 @@
 				)
 			)
 		)
+		(property "Part number" "500SSP3S1M6QEA"
+			(at 57.15 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "4360f1d6-564e-4c16-b162-ac55afe6fcc6")
 		)
@@ -4471,7 +4480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_halogenfree_fg_en.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/45171/kseries.pdf"
 			(at 157.48 76.2 0)
 			(effects
 				(font
@@ -4495,6 +4504,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part number" "K103K10X7RF5UL2"
+			(at 157.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4613,7 +4631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/lr/yageo-mfr_datasheet.pdf"
 			(at 63.5 144.78 0)
 			(effects
 				(font
@@ -4629,6 +4647,23 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part number" "MFR50SFTE52-470R"
+			(at 63.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 63.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4681,7 +4716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/lr/yageo-mf0_datasheet.pdf"
 			(at 43.18 166.37 0)
 			(effects
 				(font
@@ -4697,6 +4732,23 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part number" "MF0207FRE52-10K"
+			(at 43.18 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 43.18 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4775,6 +4827,15 @@
 				)
 			)
 		)
+		(property "Part number" "TB006-508-02BE"
+			(at 33.02 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e023f06e-be4c-42eb-afc0-27afec6ecfb3")
 		)
@@ -4798,10 +4859,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1e5df05a-f768-4eb0-bc7d-7b5d2460b51a")
 		(property "Reference" "RV2"
-			(at 162.56 114.3 90)
+			(at 162.56 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4809,7 +4869,7 @@
 			)
 		)
 		(property "Value" "2 K"
-			(at 162.56 116.84 90)
+			(at 162.56 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4848,6 +4908,14 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part number" "PDB181-K420K-202A2"
+			(at 162.56 118.11 90)
+			(effects
+				(font
+					(size 0.5 0.5)
 				)
 			)
 		)
@@ -4904,7 +4972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860020672011.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860080672001.pdf"
 			(at 139.7 73.66 0)
 			(effects
 				(font
@@ -4928,6 +4996,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part number" "860080672001"
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5139,6 +5216,15 @@
 				)
 			)
 		)
+		(property "Part number" "2N2222A"
+			(at 60.96 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9f5ec44-9555-44e1-aa9a-6e4e21d8e2bf")
 		)
@@ -5348,6 +5434,14 @@
 				)
 			)
 		)
+		(property "Part number" "PDB181-K420K-103B"
+			(at 189.992 133.096 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "80f47830-92db-44eb-80a4-6d6be77ff62e")
 		)
@@ -5403,7 +5497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/26/db/14/60/52/47/47/5b/CD00001625.pdf/files/CD00001625.pdf/jcr:content/translations/en.CD00001625.pdf"
 			(at 113.03 82.55 0)
 			(effects
 				(font
@@ -5419,6 +5513,23 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part number" "1N5819"
+			(at 113.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 113.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5486,6 +5597,23 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part number" "LM386N-1/NOPB"
+			(at 151.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 151.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "6"
@@ -5622,7 +5750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/26/db/14/60/52/47/47/5b/CD00001625.pdf/files/CD00001625.pdf/jcr:content/translations/en.CD00001625.pdf"
 			(at 129.54 82.55 0)
 			(effects
 				(font
@@ -5638,6 +5766,23 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part number" "1N5819"
+			(at 129.54 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 129.54 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5757,7 +5902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860020672010.pdf"
 			(at 156.21 109.22 0)
 			(effects
 				(font
@@ -5781,6 +5926,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part number" "860020672010"
+			(at 156.21 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5832,7 +5986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860020672010.pdf"
 			(at 222.25 81.28 0)
 			(effects
 				(font
@@ -5856,6 +6010,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part number" "860020672010"
+			(at 222.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6105,7 +6268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860020672010.pdf"
 			(at 222.25 68.58 0)
 			(effects
 				(font
@@ -6129,6 +6292,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part number" "860020672010"
+			(at 222.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6180,7 +6352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLH.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860080675015.pdf"
 			(at 222.25 92.71 0)
 			(effects
 				(font
@@ -6204,6 +6376,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part number" "860080675015"
+			(at 222.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6348,6 +6529,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part number" "K683K15X7RF5TL2"
+			(at 199.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6559,6 +6749,15 @@
 				)
 			)
 		)
+		(property "Part number" "K333K15X7RF5TL2"
+			(at 187.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9908831-00f5-4958-8c83-ba95372c8e3a")
 		)
@@ -6677,7 +6876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/lr/yageo-mf0_datasheet.pdf"
 			(at 50.8 173.99 0)
 			(effects
 				(font
@@ -6693,6 +6892,23 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part number" "MF0207FTE52-1K"
+			(at 50.8 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 50.8 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6771,6 +6987,15 @@
 				)
 			)
 		)
+		(property "Part number" "PJ-322"
+			(at 35.306 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "cc5dc951-323e-4ac6-bf35-8c95dde71747")
 		)
@@ -6827,7 +7052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/lr/yageo-mf0_datasheet.pdf"
 			(at 177.8 127 0)
 			(effects
 				(font
@@ -6843,6 +7068,23 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part number" "MF0207FTE52-5K1"
+			(at 177.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 177.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6897,7 +7139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-20-98-0114/307GLC.pdf"
 			(at 63.5 154.94 0)
 			(effects
 				(font
@@ -6930,6 +7172,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part number" "LTL-307GLC"
+			(at 63.5 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7072,6 +7323,15 @@
 				)
 			)
 		)
+		(property "Part number" "TB006-508-02BE"
+			(at 250.19 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c8cd9ac-8536-45f3-8656-c9e037aa4876")
 		)
@@ -7148,6 +7408,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part number" "  NZX13B,133"
+			(at 77.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7364,6 +7633,15 @@
 				)
 			)
 		)
+		(property "Part number" "K104K15X7RF5TL2"
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2afbe198-0106-4067-a90a-697c16e73464")
 		)
@@ -7438,6 +7716,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part number" "K104K15X7RF5TL2"
+			(at 139.7 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7591,6 +7878,15 @@
 				)
 			)
 		)
+		(property "Part number" "K104K15X7RF5TL2"
+			(at 130.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "476b3c20-2708-447a-b245-32cffecf476f")
 		)
@@ -7707,7 +8003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/lr/yageo-mf0_datasheet.pdf"
 			(at 90.17 90.17 0)
 			(effects
 				(font
@@ -7723,6 +8019,23 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part number" "MF0207FRE52-10K"
+			(at 90.17 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 90.17 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -7774,7 +8087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860020672010.pdf"
 			(at 222.25 57.15 0)
 			(effects
 				(font
@@ -7798,6 +8111,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part number" "860020672010"
+			(at 222.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7916,7 +8238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/lr/yageo-mf0_datasheet.pdf"
 			(at 199.39 110.49 0)
 			(effects
 				(font
@@ -7932,6 +8254,23 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part number" "MF0207FTE52-7R5"
+			(at 199.39 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 199.39 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -7957,7 +8296,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fcb5e2ce-acee-4c1d-8e6b-18c35016a9ec")
 		(property "Reference" "RV1"
 			(at 76.2 88.8999 0)
@@ -8009,6 +8347,14 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part number" "PDB181-K420K-103B"
+			(at 71.882 93.726 0)
+			(effects
+				(font
+					(size 0.5 0.5)
 				)
 			)
 		)

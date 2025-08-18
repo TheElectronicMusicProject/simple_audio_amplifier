@@ -54,7 +54,87 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr through_hole)
+	(fp_line
+		(start -6 4)
+		(end -3.6 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a2ec46e6-30fe-43e1-a1a8-c0c78ce184a1")
+	)
+	(fp_line
+		(start -6 4.6)
+		(end -6 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "60e6df57-ece6-47de-9c93-68ca5c45927f")
+	)
+	(fp_line
+		(start -6 11.2)
+		(end -6 10.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fef1d264-dadd-45c3-ace6-68b9dfef23a1")
+	)
+	(fp_line
+		(start -3.6 11.2)
+		(end -6 11.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "05348144-a374-422a-899f-2268be402644")
+	)
+	(fp_line
+		(start -1.4 4)
+		(end 6.7 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8e8b4383-53c9-419f-9d25-319f89ab97fd")
+	)
+	(fp_line
+		(start 6.7 4)
+		(end 6.7 6.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "81ae6da1-cf06-4c8d-a2ad-b84119c4c0a3")
+	)
+	(fp_line
+		(start 6.7 8.7)
+		(end 6.7 11.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "85d652e5-eb01-43bc-ade0-6500c651767c")
+	)
+	(fp_line
+		(start 6.7 11.2)
+		(end -1.4 11.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "da28abb4-0ba4-4f0f-8e32-a74e13e0afe8")
+	)
 	(fp_rect
 		(start -8.5 4.6)
 		(end -6 10.6)
@@ -65,17 +145,6 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "dd4b77a9-7911-4d9e-beda-27b432b0198c")
-	)
-	(fp_rect
-		(start -6 4)
-		(end 6.69 11.2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "72fcbc11-1176-4258-9c59-143c6436a486")
 	)
 	(fp_rect
 		(start -8.7 3.2)
@@ -93,11 +162,11 @@
 		(end 6.69 11.2)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "c01a1dc8-55a0-489d-8e5b-48d4226efeb2")
+		(uuid "72fcbc11-1176-4258-9c59-143c6436a486")
 	)
 	(fp_circle
 		(center -4 7.5)
