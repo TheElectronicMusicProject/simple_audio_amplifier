@@ -26,18 +26,18 @@ The audio input is jack socket compatible with TRRS contacts, however only the f
 
 ## 2 Technical Specifications
 
-### 1 - INPUT VOLTAGE
+### 1 - INPUT SUPPLY VOLTAGE
 
 The device can operate **from 4 V to 12 V** (compatible with the full voltage range of the LM386N). Suggested input current source **at least 500 mA** (lower is permitted but doesn't guarantee the correct operations for all the conditions).  
 The external source must be connected to J1 connector, where the dot sign on the PCB corresponds to the + positive voltage.
 Through the S1 swith it is possible to turn on and off the device to avoid unnecessary energy consumption.
 
-### 2 - INPUT VOLTAGE
+### 2 - INPUT AUDIO
 
 This device is compatible with **TRRS connectors** connected to J2. Monophonic audio source is not mandatory but it is suggested to enjoy the amplifier capabilities.  
 At the moment, only the **CTIA/AHJ standard** is supported, be sure to use this kind of device.  
 
-### 3 - INPUT VOLTAGE
+### 3 - INPUT AUDIO
 
 The J3 connector must be used to connect the output amplifier to an external speaker, where the dot sign on the PCB corresponds to the + positive voltage.  
 Compatible output impedance goes **from 4 Ω to 32 Ω** and higher.  
