@@ -9,6 +9,7 @@
 
 |Version|Date         |Revision Notes|
 |-------|-------------|--------------|
+|1.1    |Not released |Improved documentation|
 |1.0    |Aug. 18, 2025| First release|
 
 ## 1 Introduction
@@ -21,7 +22,7 @@ The amplifier consists of the LM386N audio mono amplifier with some circuitry to
 - Bass
 
 There is an additional dedicated circuitry to light an LED up when the device is powered on.  
-The audio input is a jack socket compatible with TRRS contacts, however only the first ring is actually connected to the amplifier, leaving the second ring unconnected. This mean you must set the audio source to output a monophonic sound. The risk is to loose half of the music if stereo is used.
+The audio input is jack socket compatible with TRRS contacts, however only the first ring is actually connected to the amplifier, leaving the second ring unconnected. This means you must set the audio source to output a monophonic sound. The risk is to loose half of the music if stereo is used.
 
 ## 2 Technical Specifications
 
@@ -74,6 +75,10 @@ The typical **output power is 325 mW**.
 
 ![drawing](./output/simple_audio_amplifier.svg)
 
+## PCB Layout
+
+![drawing](./output/simple_audio_amplifier_layout.svg)
+
 ## Diagram description
 
 ### Input power supply section
@@ -120,3 +125,8 @@ An additional circuit between pin 5 and pin 1 of U1 is used to regulate the bass
 - Make the input compatible with stereo audio format too, adding a stereo to mono converter (summing OPAMP with double voltage).
 
 - Add more descriptive silkscreen on the PCB.
+
+## License
+
+You are free to use, reproduce and modify this project in its entirety.  
+Please, remember to refer to me, this would be very appreciated and will help me to continue to do better!
