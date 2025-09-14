@@ -17,12 +17,12 @@
 This project is an exercise to correctly use KiCad to design a complete project.  
 The amplifier consists of the LM386N audio mono amplifier with some circuitry to adjust:
 
-- Gain
-- Volume
-- Bass
+- Gain (incremented with clockwise rotation)
+- Volume (incremented with counterclockwise rotation)
+- Bass (incremented with counterclockwise rotation)
 
 There is an additional dedicated circuitry to light an LED up when the device is powered on.  
-The audio input is jack socket compatible with TRRS contacts, however only the first ring is actually connected to the amplifier, leaving the second ring unconnected. This means you must set the audio source to output a monophonic sound. The risk is to loose half of the music if stereo is used.
+The audio input is jack socket compatible with TRS/TRRS contacts, however only the first ring is actually connected to the amplifier, leaving the second ring unconnected. This means you must set the audio source to output a monophonic sound. The risk is to loose half of the music if stereo is used.
 
 ## 2 Technical Specifications
 
@@ -34,10 +34,22 @@ Through the S1 swith it is possible to turn on and off the device to avoid unnec
 
 ### 2 - INPUT AUDIO
 
-This device is compatible with **TRRS connectors** connected to J2. Monophonic audio source is not mandatory but it is suggested to enjoy the amplifier capabilities.  
+This device is compatible with **TRRS and TRS connectors** connected to J2. Monophonic audio source is not mandatory but it is suggested to enjoy the amplifier capabilities.  
 At the moment, only the **CTIA/AHJ standard** is supported, be sure to use this kind of device.  
 
-### 3 - INPUT AUDIO
+```text
+                                   _______________
+  ________  ______  ______________//              ~
+ /        ||      ||              ||              ~
+ \________||______||______________||              ~
+     ^         ^           ^      \\______________~
+     |         |           |
+RIGHT (N.C.)   |           |
+              GND          |
+                          LEFT
+```
+
+### 3 - OUTPUT AUDIO
 
 The J3 connector must be used to connect the output amplifier to an external speaker, where the dot sign on the PCB corresponds to the + positive voltage.  
 Compatible output impedance goes **from 4 Ω to 32 Ω** and higher.  
@@ -89,26 +101,36 @@ The zener diode D4 is used to avoid dangerous overvoltage to be applied to the L
 ### LED indicator
 
 The circuit to turn the green LED D3 on consists of the transistor Q1 which make the path conducting. The resistor is selected to apply the right current to the LED, up to 12 V.  
-An input voltage below **TBD** V turns off the LED, but the circuit still works up to above 4 V.
+An input voltage below 6 V turns off the LED, but the circuit still works up to above 4 V.
+However the LED is appreciable from 7 V and above.
 
 ### Input signal section
 
 The signal comes only from one of the rings of the audio jack.  
 There is the turnable RV1 potentiometer which regulates the volume. Together with R1 avoid overvoltages applied to the input pin of U1 (it operates up to +400 mV and -400 mV).  
 Capacitor C6 with R1 an RV1 is a blocking high-pass filter with cuts the frequencies below 160 Hz if RV1 is bypassed.
-Additional protection D1, D2 Schottky diodes guarantee the respect of the input voltage range (this, however, could result in signal distortion).
+Additional protection D1, D2 Schottky diodes guarantee the respect of the input voltage range (this, however, could result in signal distortion).  
+Maximum volume if totally left (minimum resistance), while minim volume if totally right (maximum resistance).  
+Using the test sinewave at 1 kHz, Vsupply = 9 V, max volume and bass boost, no gain - test at 20 Hz, 500 Hz, 1 kHz, 10 kHz, 20 kHz:
+
+1) With D1 and D2: input signal has distorsion, which is more evident when increasing the signal voltage (that's becaus D1 and D2 starts to operate). Best input performance is in the middle range (500 to 10 kHz), values lower and greater are easily distorted with the same volume level.
+2) Without D1 and D2: the sinewave is cleaner at all the frequencies but no input protection is provided - pay attention!
 
 ### Amplifier circuit regulation
 
-Pin 2 of U1 should be connected either to GND or to C9 - **TBD**.  
-Pin 7 can be optionally connected to C4 - **TBD**.
-Between pin 1 and pin 8 there is the RV2 potentiometer which regulates the signal gain (from **TBD** to 200).  
+Pin 2 of U1 should be connected either to GND or to C9, but in the circuit it is selected C9.  
+Pin 7 can be optionally connected to C4, but in the circuit it is selected C4 present.
+Between pin 1 and pin 8 there is the RV2 potentiometer which regulates the signal gain (theoretically from 20 to 200). Maximum gain if totally right (minimum resistance), while minim gain if totally left (maximum resistance).
 
 ### Output signal section
 
 A Zobel network consisting of C8 and R2 creates a low-pass filter which introduces a pole in the output characteristics. Its frequency is 312 kHz, that corresponds to the upper limit of the U1 bandwidth (300 kHz).  
 In order to block dangerous DC voltage to the speaker, a 250 µF equivalent capacitor is connected in series with the signal path.  
-An additional circuit between pin 5 and pin 1 of U1 is used to regulate the bass boost through the RV3 potentiometer - **TBD**.
+An additional circuit between pin 5 and pin 1 of U1 is used to regulate the bass boost through the RV3 potentiometer.  
+From the tests with an input sinewave, it shows that:
+
+- on one end of the pot (total right, maximum resistance), the peak-to-peak voltage from frequencies above 350 Hz is amplified, while below is reduced;
+- on the other end of the pot (total left, minimum resistance), there is the inverted condition, hence there is a little bass boost sacrificing the higher frequencies (350 Hz and higher).
 
 ## Notes for future redesign
 
@@ -118,13 +140,35 @@ An additional circuit between pin 5 and pin 1 of U1 is used to regulate the bass
 
 - Remove the circuitry to drive the D3 LED, put a LED driver instead (like the CL520N3-G).
 
-- Check the values of C11, R3, RV3 (not tested).
+- Check the values of C11, R3, RV3 (not tested). (*)
 
 - Replace S1 with a cheaper switch.
 
 - Make the input compatible with stereo audio format too, adding a stereo to mono converter (summing OPAMP with double voltage).
 
 - Add more descriptive silkscreen on the PCB.
+
+- Correct the footprints of the capacitors, resistors, LED.
+
+- Check if the bass boost is useful.
+
+- Correct the potentiometers knobs directions of rotation.
+
+- Selected input switch is a 3-way swich - use MFS201N-16-Z.
+
+- (*) Change R3 from 5.1K to 10K.
+
+- Correct the input jack in order to have the holes to fit in the component.
+
+- Move the jack to the potentiometers side.
+
+- Connect the potentiometer wiper to the disconnected side.
+
+- Avoid hatched ground, use the entire plane instead.
+
+- Isolate the power supply ground (if possible).
+
+- Test with TRRS connector.
 
 ## License
 
