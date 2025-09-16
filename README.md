@@ -35,18 +35,33 @@ Through the S1 swith it is possible to turn on and off the device to avoid unnec
 ### 2 - INPUT AUDIO
 
 This device is compatible with **TRRS and TRS connectors** connected to J2. Monophonic audio source is not mandatory but it is suggested to enjoy the amplifier capabilities.  
-At the moment, only the **CTIA/AHJ standard** is supported, be sure to use this kind of device.  
+At the moment, only the **CTIA/AHJ standard** is supported, be sure to use this kind of device in case of TRRS connector.  
 
 ```text
+TRS
                                    _______________
   ________  ______  ______________//              ~
  /        ||      ||              ||              ~
  \________||______||______________||              ~
      ^         ^           ^      \\______________~
      |         |           |
-RIGHT (N.C.)   |           |
-              GND          |
-                          LEFT
+LEFT (N.C.)    |           |
+             RIGHT         |
+                          GND
+```
+
+```text
+TRRS
+                                   _______________
+  ________  ______  ______  _____//              ~
+ /        ||      ||      ||     ||              ~
+ \________||______||______||_____||              ~
+     ^         ^       ^      ^  \\______________~
+     |         |       |      |
+LEFT (N.C.)    |       |      |
+             RIGHT     |      |
+                      GND     |
+                          MIC (N.C)
 ```
 
 ### 3 - OUTPUT AUDIO
@@ -134,15 +149,7 @@ From the tests with an input sinewave, it shows that:
 
 ## Notes for future redesign
 
-- Remove D1, D2 without comprimising the input voltage tolerated. This will avoid signal distortion.
-
-- Make C1, C2, C5, C7 an unique capacitor of an actual capacitance of 250 µF.
-
 - Remove the circuitry to drive the D3 LED, put a LED driver instead (like the CL520N3-G).
-
-- Check the values of C11, R3, RV3 (not tested). (*)
-
-- Replace S1 with a cheaper switch.
 
 - Make the input compatible with stereo audio format too, adding a stereo to mono converter (summing OPAMP with double voltage).
 
@@ -150,25 +157,15 @@ From the tests with an input sinewave, it shows that:
 
 - Correct the footprints of the capacitors, resistors, LED.
 
-- Check if the bass boost is useful.
-
-- Correct the potentiometers knobs directions of rotation.
-
-- Selected input switch is a 3-way swich - use MFS201N-16-Z.
-
-- (*) Change R3 from 5.1K to 10K.
-
-- Correct the input jack in order to have the holes to fit in the component.
-
 - Move the jack to the potentiometers side.
-
-- Connect the potentiometer wiper to the disconnected side.
 
 - Avoid hatched ground, use the entire plane instead.
 
 - Isolate the power supply ground (if possible).
 
 - Test with TRRS connector.
+
+- Add heatsink for regulator.
 
 ## License
 

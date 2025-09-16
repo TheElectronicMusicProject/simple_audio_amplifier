@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MFP126DRA-UL
+D Slide Switch, 1 Positions, On-on, Horizontal, 5A, 28VDC, 5 PCB Hole Cnt, Solder Terminal, Through Hole-right Angle
+K
+F https://4donline.ihs.com/images/VipMasterIC/IC/KNSW/KNSWS00244/KNSWS00244-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054
+$ENDCMP
+#
+#End Doc Library

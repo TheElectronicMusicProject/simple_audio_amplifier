@@ -168,28 +168,6 @@
 		(layer "F.Fab")
 		(uuid "72fcbc11-1176-4258-9c59-143c6436a486")
 	)
-	(fp_circle
-		(center -4 7.5)
-		(end -4 8.1)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "cf7fc07b-9375-4803-9c72-82f9f525a6fd")
-	)
-	(fp_circle
-		(center 3 7.5)
-		(end 3 8.1)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "5d2b873c-e28a-4709-873d-9f40669be540")
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
@@ -201,6 +179,20 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(pad "" np_thru_hole circle
+		(at -4 7.5)
+		(size 1.3 1.3)
+		(drill 1.3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "7184c19c-c53b-4bbf-b292-b37c2422f3a1")
+	)
+	(pad "" np_thru_hole circle
+		(at 3 7.5)
+		(size 1.3 1.3)
+		(drill 1.3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "ce763486-d173-4a6b-9755-eb9d6cfd66e7")
 	)
 	(pad "1" thru_hole roundrect
 		(at 6.4 7.6 90)

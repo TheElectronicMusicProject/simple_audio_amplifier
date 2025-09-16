@@ -3,4 +3,7 @@
   (lib (name "PJ-322")(type "KiCad")(uri "${KIPRJMOD}/lib/PJ-322/PJ-322.kicad_sym")(options "")(descr ""))
   (lib (name "500SSP3S1M6QEA")(type "KiCad")(uri "${KIPRJMOD}/lib/500SSP3S1M6QEA/500SSP3S1M6QEA.kicad_sym")(options "")(descr ""))
   (lib (name "TB006 -508-02BE")(type "KiCad")(uri "${KIPRJMOD}/lib/TB006 -508-02BE/TB006 -508-02BE.kicad_sym")(options "")(descr ""))
+  (lib (name "WCAP-ATUL_8X20")(type "KiCad")(uri "${KIPRJMOD}/lib/860040574008/WCAP-ATUL_8X20.kicad_sym")(options "")(descr ""))
+  (lib (name "MFP126DRA-UL")(type "KiCad")(uri "${KIPRJMOD}/lib/MFP126DRA-UL/MFP126DRA-UL.kicad_sym")(options "")(descr ""))
+  (lib (name "L7805CV")(type "KiCad")(uri "${KIPRJMOD}/lib/L7805CV/L7805CV.kicad_sym")(options "")(descr ""))
 )
