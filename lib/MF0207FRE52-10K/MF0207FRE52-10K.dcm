@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MF0207FRE52-10K
+D 10 kOhms +/-1% 0.6W Through Hole Resistor Axial Metal Film
+K
+F https://www.yageo.com/upload/media/product/app/datasheet/lr/yageo-mf0_datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

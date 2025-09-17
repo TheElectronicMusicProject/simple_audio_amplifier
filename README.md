@@ -149,8 +149,6 @@ From the tests with an input sinewave, it shows that:
 
 ## Notes for future redesign
 
-- Remove the circuitry to drive the D3 LED, put a LED driver instead (like the CL520N3-G).
-
 - Make the input compatible with stereo audio format too, adding a stereo to mono converter (summing OPAMP with double voltage).
 
 - Add more descriptive silkscreen on the PCB.
@@ -164,8 +162,6 @@ From the tests with an input sinewave, it shows that:
 - Isolate the power supply ground (if possible).
 
 - Test with TRRS connector.
-
-- Add heatsink for regulator.
 
 ## License
 

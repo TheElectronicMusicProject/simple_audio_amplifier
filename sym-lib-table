@@ -6,4 +6,5 @@
   (lib (name "WCAP-ATUL_8X20")(type "KiCad")(uri "${KIPRJMOD}/lib/860040574008/WCAP-ATUL_8X20.kicad_sym")(options "")(descr ""))
   (lib (name "MFP126DRA-UL")(type "KiCad")(uri "${KIPRJMOD}/lib/MFP126DRA-UL/MFP126DRA-UL.kicad_sym")(options "")(descr ""))
   (lib (name "L7805CV")(type "KiCad")(uri "${KIPRJMOD}/lib/L7805CV/L7805CV.kicad_sym")(options "")(descr ""))
+  (lib (name "TLPG5600")(type "KiCad")(uri "${KIPRJMOD}/lib/TLPG5600/TLPG5600.kicad_sym")(options "")(descr ""))
 )
