@@ -16,4 +16,7 @@
   (lib (name "K104K15X7RF5TL2")(type "KiCad")(uri "${KIPRJMOD}/lib/K104K15X7RF5TL2")(options "")(descr ""))
   (lib (name "WCAP-ATG5_5X11")(type "KiCad")(uri "${KIPRJMOD}/lib/WCAP-ATG5_5X11")(options "")(descr ""))
   (lib (name "K333K15X7RF5TL2")(type "KiCad")(uri "${KIPRJMOD}/lib/K333K15X7RF5TL2")(options "")(descr ""))
+  (lib (name "FG14X7R1H225KRT06")(type "KiCad")(uri "${KIPRJMOD}/lib/FG14X7R1H225KRT06")(options "")(descr ""))
+  (lib (name "TAP105K050BRW")(type "KiCad")(uri "${KIPRJMOD}/lib/TAP105K050BRW")(options "")(descr ""))
+  (lib (name "K103K10X7RF5UL2")(type "KiCad")(uri "${KIPRJMOD}/lib/K103K10X7RF5UL2")(options "")(descr ""))
 )
