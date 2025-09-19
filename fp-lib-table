@@ -19,4 +19,7 @@
   (lib (name "FG14X7R1H225KRT06")(type "KiCad")(uri "${KIPRJMOD}/lib/FG14X7R1H225KRT06")(options "")(descr ""))
   (lib (name "TAP105K050BRW")(type "KiCad")(uri "${KIPRJMOD}/lib/TAP105K050BRW")(options "")(descr ""))
   (lib (name "K103K10X7RF5UL2")(type "KiCad")(uri "${KIPRJMOD}/lib/K103K10X7RF5UL2")(options "")(descr ""))
+  (lib (name "MF0207FTE52-1K")(type "KiCad")(uri "${KIPRJMOD}/lib/MF0207FTE52-1K")(options "")(descr ""))
+  (lib (name "FG28X5R1H105KRT06")(type "KiCad")(uri "${KIPRJMOD}/lib/FG28X5R1H105KRT06")(options "")(descr ""))
+  (lib (name "V7236B1")(type "KiCad")(uri "${KIPRJMOD}/lib/V7236B1/V7236B1.pretty")(options "")(descr ""))
 )

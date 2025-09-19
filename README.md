@@ -35,7 +35,7 @@ Through the S1 swith it is possible to turn on and off the device to avoid unnec
 ### 2 - INPUT AUDIO
 
 This device is compatible with **TRRS and TRS connectors** connected to J2. Monophonic audio source is not mandatory but it is suggested to enjoy the amplifier capabilities.  
-At the moment, only the **CTIA/AHJ standard** is supported, be sure to use this kind of device in case of TRRS connector.  
+Both the **CTIA/AHJ and OMTP standards** are supported for TRRS connectors.  
 
 ```text
 TRS
@@ -149,19 +149,13 @@ From the tests with an input sinewave, it shows that:
 
 ## Notes for future redesign
 
-- Make the input compatible with stereo audio format too, adding a stereo to mono converter (summing OPAMP with double voltage).
-
 - Add more descriptive silkscreen on the PCB.
-
-- Correct the footprints of the capacitors, resistors, LED.
-
-- Move the jack to the potentiometers side.
 
 - Avoid hatched ground, use the entire plane instead.
 
 - Isolate the power supply ground (if possible).
 
-- Test with TRRS connector.
+- Increased tracks width.
 
 ## License
 
