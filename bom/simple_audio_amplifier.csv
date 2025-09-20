@@ -1,24 +1,25 @@
-"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet","Part number"
-"C1,C2,C5,C10","4","10 uF","","","","Capacitor_THT:CP_Radial_D4.0mm_P2.00mm","https://www.we-online.com/components/products/datasheet/860020672010.pdf","860020672010"
-"C3","1","22 uF","","","","Capacitor_THT:CP_Radial_D4.0mm_P2.00mm","https://www.we-online.com/components/products/datasheet/860080672001.pdf","860080672001"
-"C4","1","10 uF","","","","Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm","https://www.vishay.com/docs/45171/kseries.pdf","K103K10X7RF5UL2"
-"C6,C9,C12","3","0.1 uF","","","","Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm","https://www.vishay.com/docs/45171/kseries.pdf","K104K15X7RF5TL2"
-"C7","1","220 uF","","","","Capacitor_THT:CP_Radial_D5.0mm_P2.00mm","https://www.we-online.com/components/products/datasheet/860080675015.pdf","860080675015"
-"C8","1","68 nF","","","","Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm","https://www.vishay.com/docs/45171/kseries.pdf","K683K15X7RF5TL2"
-"C11","1","33 nF","","","","Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm","https://www.vishay.com/docs/45171/kseries.pdf","K333K15X7RF5TL2"
-"D1,D2","2","1N5819","","","","Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal","https://www.st.com/content/ccc/resource/technical/document/datasheet/26/db/14/60/52/47/47/5b/CD00001625.pdf/files/CD00001625.pdf/jcr:content/translations/en.CD00001625.pdf","1N5819"
-"D3","1","Green LED","","","","LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm","https://optoelectronics.liteon.com/upload/download/DS-20-98-0114/307GLC.pdf","LTL-307GLC"
-"D4","1","NZX13B,133","","","","NZX13B,133:DIOAD928W47L399D179","https://assets.nexperia.com/documents/data-sheet/NZX_SER.pdf","  NZX13B,133"
-"H1,H2,H3,H4","4","MountingHole","","Excluded from BOM","","MountingHole:MountingHole_2.5mm","~",""
-"J1,J3","2","TB006-508-02BE","","","","TB006 -508-02BE:CUI_TB006_-508-02BE","https://www.sameskydevices.com/product/resource/tb006-508.pdf","TB006-508-02BE"
-"J2","1","PJ-322","","","","PJ-322:PJ-322","http://en.hooya.hk/wproducts_content-243770.html","PJ-322"
-"Q1","1","2N2222A","","","","2N2222A:TO92254P470H750-3","https://www.onsemi.com/pdf/datasheet/p2n2222a-d.pdf","2N2222A"
-"R1,R5","2","10 K","","","","Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal","https://www.yageo.com/upload/media/product/app/datasheet/lr/yageo-mf0_datasheet.pdf","MF0207FRE52-10K"
-"R2","1","7.5","","","","Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal","https://www.yageo.com/upload/media/product/app/datasheet/lr/yageo-mf0_datasheet.pdf","MF0207FTE52-7R5"
-"R3","1","5.1 K","","","","Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal","https://www.yageo.com/upload/media/product/app/datasheet/lr/yageo-mf0_datasheet.pdf","MF0207FTE52-5K1"
-"R4","1","470","","","","Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal","https://www.yageo.com/upload/media/product/app/datasheet/lr/yageo-mfr_datasheet.pdf","MFR50SFTE52-470R"
-"R6","1","1 K","","","","Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal","https://www.yageo.com/upload/media/product/app/datasheet/lr/yageo-mf0_datasheet.pdf","MF0207FTE52-1K"
-"RV1,RV3","2","10 K","","","","WH148-1A-2:WH148-1A-2","https://www.bourns.com/docs/Product-Datasheets/PDB18.pdf","PDB181-K420K-103B"
-"RV2","1","2 K","","","","WH148-1A-2:WH148-1A-2","https://www.bourns.com/docs/Product-Datasheets/PDB18.pdf","PDB181-K420K-202A2"
-"S1","1","500SSP3S1M6QEA","","","","500SSP3S1M6QEA:SW_500SSP3S1M6QEA","https://www.e-switch.com/wp-content/uploads/2023/01/500.pdf","500SSP3S1M6QEA"
-"U1","1","LM386N-1","","","","Package_DIP:DIP-8_W7.62mm_LongPads","http://www.ti.com/lit/ds/symlink/lm386.pdf","LM386N-1/NOPB"
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"RV3,RV1";"WH148-1A-2";2;"10 K";;;
+2;"C7";"K103K10X7RF5UL2_VIS";1;"10 uF";;;
+3;"C6,C4,C1";"WCAP-ATLI_5X11_DXL_";3;"22 uF";;;
+4;"R5";"RESAD1590W60L630D240";1;"10 K";;;
+5;"C9";"WCAP-ATUL_8X20_DXL_";1;"270 uF";;;
+6;"C13";"CAP_K-SERIES_15-L2_VIS";1;"33 nF";;;
+7;"D1";"DIOAD928W47L399D179";1;"NZX30C,133";;;
+8;"HS1";"V7236B1";1;"Heatsink";;;
+9;"C3";"CAPRB250W50L450T300H550";1;"2.2 uF";;;
+10;"C12";"WCAP-ATG5_5X11_DXL_";1;"10 uF";;;
+11;"C2";"XTAL_ZTA-6.00MG";1;"1 uF";;;
+12;"R1";"RESAD1100W55L630D240B";1;"309";;;
+13;"S1";"MFP126DRAUL";1;"MFP 126 D-RA";;;
+14;"J1,J3";"CUI_TB006_-508-02BE";2;"TB006-508-02BE";;;
+15;"U1";"TO255P1040X460X1968-3";1;"L7805CV";;;
+16;"C8";"CAPRB500W50L400T250H550";1;"1 uF";;;
+17;"U2";"DIP-8_W7.62mm_LongPads";1;"LM386N-1";;;
+18;"RV2";"WH148-1A-2";1;"2 K";;;
+19;"C10";"CAP_K-SERIES_15-L2_VIS";1;"68 nF";;;
+20;"C11,C5";"K104K15X7RF5TL2_VIS";2;"0.1 uF";;;
+21;"R4";"RESAD1590W60L630D240";1;"7.5";;;
+22;"R3,R2";"RESAD1590W60L630D240";2;"1 K";;;
+23;"J2";"PJ-322";1;"PJ-322";;;
+24;"LED1";"TLPG5600";1;"TLPG5600";;;

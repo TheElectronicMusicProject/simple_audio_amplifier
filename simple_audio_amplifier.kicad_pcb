@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Simple Audio Amplifier")
-		(date "2025-08-20")
-		(rev "1.1")
+		(date "2025-09-20")
+		(rev "2.0")
 		(company "Circuitry Passion")
 	)
 	(layers
@@ -8804,7 +8804,7 @@
 			(net 7 "unconnected-(J2-Pad3)_1")
 			(pinfunction "3")
 			(pintype "input+no_connect")
-			(uuid "88d46bd2-ad9d-4055-abda-eeb831f25698")
+			(uuid "1b2e225b-0d73-4bed-8671-9429df19a7b9")
 		)
 		(pad "4" thru_hole rect
 			(at 5.5 10.5 90)
