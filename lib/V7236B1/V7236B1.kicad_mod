@@ -77,14 +77,15 @@
 		(uuid "b9f5b4d3-afdb-4e96-9fa5-25f49f79edb2")
 	)
 	(fp_text user "HEATSINK"
-		(at -3.305 9.5 0)
+		(at -3.1 13.4 45)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4d35b24c-4fea-46e6-a154-495393289f7b")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
 			)
 			(justify left bottom)
 		)

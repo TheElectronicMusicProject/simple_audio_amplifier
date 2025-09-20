@@ -7178,10 +7178,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ab7b0510-b42d-445e-8a95-a89c94f5d1ec")
 		(property "Reference" "HS1"
-			(at 180.34 26.0349 0)
+			(at 179.705 24.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7190,7 +7189,7 @@
 			)
 		)
 		(property "Value" "Heatsink"
-			(at 180.34 28.5749 0)
+			(at 179.705 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7226,12 +7225,11 @@
 			)
 		)
 		(property "Part number" "V7236B1"
-			(at 175.895 29.21 0)
+			(at 184.15 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purpose" ""
